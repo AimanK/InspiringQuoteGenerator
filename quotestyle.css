@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  borer: 1px solid red;
+}
+
+html {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/landscape.jpg");
+
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  font-style: Arial;
+  min-height: 100%;
+  
+}
+
+
+h1 {
+  font-size: 50px;
+  padding: 15px;
+  color: white;
+}
+
+h3 {
+  font-size: 35px;
+  padding: 3px;
+  font-style: italic;
+  color: white;
+}
+
+
+.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: initial;
+
+
+  display: flex;
+  justify-self: center;
+  background-color: rgb(80, 157, 230); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-style: italic;
+  border-radius: 30px;
+  
+}
+
+
+.button:hover {
+  background-color: rgb(92, 175, 253);
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+
+.returnbutton {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: initial;
+
+  display: flex;
+  justify-self: center;
+  background-color: white;
+  border: none;
+  color: rgb(80, 157, 230);
+  padding: 15px 32px;
+  margin: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+
+}
+
+.returnbutton:hover {
+  background-color: rgb(92, 175, 253);
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 767px)
+{
+  .returnbutton {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: initial;
+
+  display: flex;
+  justify-self: center;
+  background-color: rgb(80, 157, 230); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-style: italic;
+  border-radius: 30px;
+
+}
+
+}
